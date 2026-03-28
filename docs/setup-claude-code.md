@@ -122,9 +122,9 @@ This step schedules `refresh.py` to run automatically every Sunday at 08:00. Thi
 
 ### 6a. Prepare the plist file
 
-The repository includes a template plist at `com.jayeshvorani.rr-refresh.plist`. Edit it to replace the placeholder paths with your own:
+The repository includes a template plist at `com.sap.rr.refresh.plist`. Edit it to replace the placeholder paths with your own:
 
-1. Open `com.jayeshvorani.rr-refresh.plist` in a text editor
+1. Open `com.sap.rr.refresh.plist` in a text editor
 2. Replace `/REPLACE/WITH/YOUR/VENV/PATH/python3` with your actual venv path
    - Example: `/Users/yourname/Documents/Claude_Code_Projects/.venv/bin/python3`
 3. Replace `/REPLACE/WITH/YOUR/REPO/PATH/sap-ecs-rr-advisor/refresh.py` with your actual path
@@ -134,19 +134,19 @@ The repository includes a template plist at `com.jayeshvorani.rr-refresh.plist`.
 ### 6b. Copy to LaunchAgents
 
 ```bash
-cp com.jayeshvorani.rr-refresh.plist ~/Library/LaunchAgents/
+cp com.sap.rr.refresh.plist ~/Library/LaunchAgents/
 ```
 
 ### 6c. Load the schedule
 
 ```bash
-launchctl load ~/Library/LaunchAgents/com.jayeshvorani.rr-refresh.plist
+launchctl load ~/Library/LaunchAgents/com.sap.rr.refresh.plist
 ```
 
 ### 6d. Test it (optional but recommended)
 
 ```bash
-launchctl start com.jayeshvorani.rr-refresh
+launchctl start com.sap.rr.refresh
 ```
 
 Then check the log:
@@ -161,7 +161,7 @@ tail -f ~/Library/Logs/rr-refresh-stdout.log
 launchctl list | grep rr-refresh
 
 # Unload (stops automatic scheduling)
-launchctl unload ~/Library/LaunchAgents/com.jayeshvorani.rr-refresh.plist
+launchctl unload ~/Library/LaunchAgents/com.sap.rr.refresh.plist
 ```
 
 ---

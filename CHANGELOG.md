@@ -17,7 +17,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - `PROJECT_INSTRUCTIONS.md` — Claude Projects instructions for web users, identical logic adapted for Projects context
 - `CLAUDE.md` — template for auto-loading the skill at Claude Code session start
 - LaunchD plist for automatic weekly PDF refresh every Sunday at 08:00 (Mac)
-- Repo copy of plist (`com.jayeshvorani.rr-refresh.plist`) with placeholder paths for other users
+- Repo copy of plist (`com.sap.rr.refresh.plist`) with placeholder paths for other users
 - `docs/setup-web-projects.md` — step-by-step guide for Claude Projects setup
 - `docs/setup-claude-code.md` — step-by-step guide for Claude Code CLI setup
 - `docs/setup-mac.md` — Mac Python environment setup guide
