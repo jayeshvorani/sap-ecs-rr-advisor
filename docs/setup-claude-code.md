@@ -46,11 +46,10 @@ Open each file and update line 1:
 
 **setup.py — line 1:**
 ```
-# Current (repo author's path — do not use as-is):
-#!/Users/I553472/Documents/Claude_Code_Projects/.venv/bin/python3
+# Both scripts now use the portable shebang:
+#!/usr/bin/env python3
 
-# Change to your venv path, for example:
-#!/Users/yourname/Documents/Claude_Code_Projects/.venv/bin/python3
+# This works as long as your virtual environment is active, or python3 resolves correctly.
 # or:
 #!/usr/bin/env python3
 ```

@@ -1,4 +1,4 @@
-#!/Users/I553472/Documents/Claude_Code_Projects/.venv/bin/python3
+#!/usr/bin/env python3
 # ---------------------------------------------------------------------------
 # IMPORTANT FOR OTHER USERS:
 # The shebang above is hardcoded for the repo author's environment.

@@ -85,7 +85,7 @@ Create the virtual environment at the standard path used by this project:
 
 ```bash
 # Navigate to the parent directory of your repo
-cd /Users/I553472/Documents/Claude_Code_Projects
+cd ~/Documents/Claude_Code_Projects
 # (Replace with your own path)
 
 # Create the venv
@@ -116,20 +116,16 @@ Verify:
 
 ## Step 6: Update the Shebang (if you are not the repo author)
 
-If your virtual environment is at a different path than `/Users/I553472/Documents/Claude_Code_Projects/.venv/`, update the first line of both scripts:
+If your virtual environment is at a different path than `~/Documents/Claude_Code_Projects/.venv/`, update the first line of both scripts:
 
 **setup.py and refresh.py — line 1:**
 ```bash
-# Open the file and change:
-#!/Users/I553472/Documents/Claude_Code_Projects/.venv/bin/python3
-
-# To your actual venv path, e.g.:
-#!/Users/yourname/Documents/Claude_Code_Projects/.venv/bin/python3
-```
-
-Alternatively, use the generic form (requires the venv to be active):
-```
+# Both scripts use the portable shebang by default:
 #!/usr/bin/env python3
+
+# This works as long as python3 resolves to your venv python, or you activate the venv first.
+# If you need to hardcode the path, change to your actual venv path, e.g.:
+#!/Users/yourname/Documents/Claude_Code_Projects/.venv/bin/python3
 ```
 
 ---
@@ -148,11 +144,11 @@ Run this to confirm your environment is ready:
 # Expected: version output
 
 # 3. requests
-/Users/I553472/Documents/Claude_Code_Projects/.venv/bin/python3 -c "import requests; print('requests OK')"
+.venv/bin/python3 -c "import requests; print('requests OK')"
 # Expected: requests OK
 
 # 4. venv python
-ls /Users/I553472/Documents/Claude_Code_Projects/.venv/bin/python3
+ls .venv/bin/python3
 # Expected: file exists
 ```
 
