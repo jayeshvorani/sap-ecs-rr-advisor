@@ -1,0 +1,148 @@
+{
+  "models": [
+    {
+      "short_name": "PCE",
+      "full_name": "SAP S/4HANA Cloud, private edition and SAP ERP, PCE Roles and Responsibilities",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-s4hana-cloud-private-edition-and-sap-erp-pce-roles-and-responsibilities-english-v3-2026.pdf",
+      "local_file": "pdfs/pce.pdf",
+      "last_checked": "2026-03-28T13:24:29Z",
+      "document_version": "v.03.2026",
+      "active": true,
+      "model_family": "rise_private_cloud",
+      "is_supplement": false,
+      "supplement_note": null
+    },
+    {
+      "short_name": "TAILORED",
+      "full_name": "SAP S/4HANA Cloud, private edition and SAP ERP, Tailored Option Roles and Responsibilities",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-s4hana-cloud-private-edition-and-sap-erp-tailored-option-roles-and-responsibilities-english-v3-2026.pdf",
+      "local_file": "pdfs/tailored.pdf",
+      "last_checked": "2026-03-28T13:24:33Z",
+      "document_version": "v.03.2026",
+      "active": true,
+      "model_family": "rise_private_cloud",
+      "is_supplement": false,
+      "supplement_note": null
+    },
+    {
+      "short_name": "TAILORED_CDC",
+      "full_name": "SAP S/4HANA Cloud, private edition and SAP ERP, Tailored Option - Customer Data Center Option",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-s4hana-cloud-private-edition-and-sap-erp-tailored-option-customer-data-center-option-english-v3-2026.pdf",
+      "local_file": "pdfs/tailored_cdc.pdf",
+      "last_checked": "2026-03-28T13:24:36Z",
+      "document_version": "v.03.2026",
+      "active": true,
+      "model_family": "rise_private_cloud",
+      "is_supplement": false,
+      "supplement_note": null
+    },
+    {
+      "short_name": "S4EXT",
+      "full_name": "SAP S/4HANA Cloud, Extended Edition Roles and Responsibilities for Production",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-s4hana-cloud-extended-edition-roles-and-responsibilities-for-production-english-v3-2026.pdf",
+      "local_file": "pdfs/s4ext.pdf",
+      "last_checked": "2026-03-28T13:24:39Z",
+      "document_version": "v.03.2026",
+      "active": true,
+      "model_family": "extended_hypercare",
+      "is_supplement": false,
+      "supplement_note": null
+    },
+    {
+      "short_name": "HEC",
+      "full_name": "SAP HANA Enterprise Cloud Roles and Responsibilities for Production (BYOL and Subscription models)",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-hana-enterprise-cloud-roles-and-responsibilities-for-production-byol-and-subscription-models-english-v3-2026.pdf",
+      "local_file": "pdfs/hec.pdf",
+      "last_checked": "2026-03-28T13:24:42Z",
+      "document_version": "v.03.2026",
+      "active": true,
+      "model_family": "hana_enterprise_cloud",
+      "is_supplement": false,
+      "supplement_note": null
+    },
+    {
+      "short_name": "HEC_ADV",
+      "full_name": "SAP HANA Enterprise Cloud, Advanced Edition Roles and Responsibilities (BYOL and Subscription Models)",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-hana-enterprise-cloud-advanced-edition-roles-and-responsibilities-byol-and-subscription-models-english-v3-2026.pdf",
+      "local_file": "pdfs/hec_adv.pdf",
+      "last_checked": "2026-03-28T13:24:45Z",
+      "document_version": "v.03.2026",
+      "active": true,
+      "model_family": "hana_enterprise_cloud",
+      "is_supplement": false,
+      "supplement_note": null
+    },
+    {
+      "short_name": "HEC_CE",
+      "full_name": "SAP HANA Enterprise Cloud Customer Edition",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-hana-enterprise-cloud-customer-edition-english-v3-2026.pdf",
+      "local_file": "pdfs/hec_ce.pdf",
+      "last_checked": "2026-03-28T13:24:48Z",
+      "document_version": "v.03.2026",
+      "active": true,
+      "model_family": "hana_enterprise_cloud",
+      "is_supplement": false,
+      "supplement_note": null
+    },
+    {
+      "short_name": "S4CPO",
+      "full_name": "SAP HANA Enterprise Cloud Roles and Responsibilities Supplement for S4CPO",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-hana-enterprise-cloud-roles-and-responsibilities-supplement-for-s4cpo-english-v3-2023.pdf",
+      "local_file": "pdfs/s4cpo.pdf",
+      "last_checked": "2026-03-28T13:24:51Z",
+      "document_version": null,
+      "active": true,
+      "model_family": "hana_enterprise_cloud",
+      "is_supplement": true,
+      "supplement_note": "Supplements the base HEC R&R. Use alongside HEC for complete coverage. Note: this document is version v3-2023 — significantly older than other models. Verify currency with SAP if contractually critical."
+    },
+    {
+      "short_name": "SOV_PCE",
+      "full_name": "SAP Sovereign Cloud PCE Roles and Responsibilities",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-sovereign-cloud-pce-roles-and-responsibilities-english-v7-2025.pdf",
+      "local_file": "pdfs/sov_pce.pdf",
+      "last_checked": "2026-03-28T13:24:54Z",
+      "document_version": "enGLOBAL.v.7-2025",
+      "active": true,
+      "model_family": "sovereign_cloud",
+      "is_supplement": false,
+      "supplement_note": null
+    },
+    {
+      "short_name": "SOV_PCE_TAILORED",
+      "full_name": "SAP Sovereign Cloud PCE Tailored Roles and Responsibilities",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-sovereign-cloud-pce-tailored-roles-and-responsibilities-english-v3-2026a.pdf",
+      "local_file": "pdfs/sov_pce_tailored.pdf",
+      "last_checked": "2026-03-28T13:24:57Z",
+      "document_version": "v.3.2026",
+      "active": true,
+      "model_family": "sovereign_cloud",
+      "is_supplement": false,
+      "supplement_note": null
+    },
+    {
+      "short_name": "SOV_PCE_PACKAGED",
+      "full_name": "SAP Sovereign Cloud PCE Packaged Roles and Responsibilities",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-sovereign-cloud-pce-packaged-roles-and-responsibilities-english-v3-2026b.pdf",
+      "local_file": "pdfs/sov_pce_packaged.pdf",
+      "last_checked": "2026-03-28T13:25:00Z",
+      "document_version": "v.3.2026",
+      "active": true,
+      "model_family": "sovereign_cloud",
+      "is_supplement": false,
+      "supplement_note": null
+    },
+    {
+      "short_name": "HYPERCARE",
+      "full_name": "SAP ECS HyperCare Service Description Supplement to Roles and Responsibilities",
+      "url": "https://www.sap.com/docs/download/agreements/product-policy/hec/roles-responsibilities/sap-ecs-hypercare-service-description-supplement-to-roles-and-responsibilities-english-v3-2026.pdf",
+      "local_file": "pdfs/hypercare.pdf",
+      "last_checked": "2026-03-28T13:25:03Z",
+      "document_version": "enGlobal.v.3-2026",
+      "active": true,
+      "model_family": "extended_hypercare",
+      "is_supplement": true,
+      "supplement_note": "Supplements your base R&R model. Always reference your primary model (PCE, Tailored, HEC etc.) alongside this document for complete responsibility coverage."
+    }
+  ]
+}

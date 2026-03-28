@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  SAP ECS R&R Advisor — Weekly PDF Refresh (launchd)
+  =====================================================
+  Runs refresh.py every Sunday at 08:00 local time.
+
+  SETUP INSTRUCTIONS FOR OTHER USERS:
+  1. Replace the two placeholder paths below with your own paths.
+  2. Copy this file to ~/Library/LaunchAgents/
+  3. Load it with: launchctl load ~/Library/LaunchAgents/com.jayeshvorani.rr-refresh.plist
+
+  Commands after loading:
+    Load   : launchctl load ~/Library/LaunchAgents/com.jayeshvorani.rr-refresh.plist
+    Test   : launchctl start com.jayeshvorani.rr-refresh
+    Unload : launchctl unload ~/Library/LaunchAgents/com.jayeshvorani.rr-refresh.plist
+    Status : launchctl list | grep rr-refresh
+
+  Logs (after setup):
+    stdout : ~/Library/Logs/rr-refresh-stdout.log
+    stderr : ~/Library/Logs/rr-refresh-stderr.log
+
+  See docs/setup-claude-code.md → Step 6 for full instructions.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.jayeshvorani.rr-refresh</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <!-- REPLACE WITH YOUR VENV PATH, e.g. /Users/yourname/projects/.venv/bin/python3 -->
+    <string>/REPLACE/WITH/YOUR/VENV/PATH/python3</string>
+    <!-- REPLACE WITH YOUR REPO PATH, e.g. /Users/yourname/projects/sap-ecs-rr-advisor/refresh.py -->
+    <string>/REPLACE/WITH/YOUR/REPO/PATH/sap-ecs-rr-advisor/refresh.py</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key>
+    <integer>0</integer>
+    <key>Hour</key>
+    <integer>8</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <!-- REPLACE with your actual username in the paths below -->
+  <key>StandardOutPath</key>
+  <string>/Users/REPLACE_USERNAME/Library/Logs/rr-refresh-stdout.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/REPLACE_USERNAME/Library/Logs/rr-refresh-stderr.log</string>
+
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>

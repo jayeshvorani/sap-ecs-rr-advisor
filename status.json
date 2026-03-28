@@ -1,0 +1,90 @@
+{
+  "last_run": "2026-03-28T13:25:06Z",
+  "last_run_result": "ok",
+  "models": {
+    "PCE": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:24:29Z",
+      "last_attempt": "2026-03-28T13:24:29Z",
+      "error": null,
+      "http_status": 200
+    },
+    "TAILORED": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:24:33Z",
+      "last_attempt": "2026-03-28T13:24:33Z",
+      "error": null,
+      "http_status": 200
+    },
+    "TAILORED_CDC": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:24:36Z",
+      "last_attempt": "2026-03-28T13:24:36Z",
+      "error": null,
+      "http_status": 200
+    },
+    "S4EXT": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:24:39Z",
+      "last_attempt": "2026-03-28T13:24:39Z",
+      "error": null,
+      "http_status": 200
+    },
+    "HEC": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:24:42Z",
+      "last_attempt": "2026-03-28T13:24:42Z",
+      "error": null,
+      "http_status": 200
+    },
+    "HEC_ADV": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:24:45Z",
+      "last_attempt": "2026-03-28T13:24:45Z",
+      "error": null,
+      "http_status": 200
+    },
+    "HEC_CE": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:24:48Z",
+      "last_attempt": "2026-03-28T13:24:48Z",
+      "error": null,
+      "http_status": 200
+    },
+    "S4CPO": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:24:51Z",
+      "last_attempt": "2026-03-28T13:24:51Z",
+      "error": null,
+      "http_status": 200
+    },
+    "SOV_PCE": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:24:54Z",
+      "last_attempt": "2026-03-28T13:24:54Z",
+      "error": null,
+      "http_status": 200
+    },
+    "SOV_PCE_TAILORED": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:24:57Z",
+      "last_attempt": "2026-03-28T13:24:57Z",
+      "error": null,
+      "http_status": 200
+    },
+    "SOV_PCE_PACKAGED": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:25:00Z",
+      "last_attempt": "2026-03-28T13:25:00Z",
+      "error": null,
+      "http_status": 200
+    },
+    "HYPERCARE": {
+      "status": "ok",
+      "last_success": "2026-03-28T13:25:03Z",
+      "last_attempt": "2026-03-28T13:25:03Z",
+      "error": null,
+      "http_status": 200
+    }
+  }
+}

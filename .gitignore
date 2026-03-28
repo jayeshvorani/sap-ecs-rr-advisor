@@ -1,0 +1,27 @@
+# PDFs — downloaded by setup.py and refresh.py, not tracked in git
+pdfs/*.pdf
+
+# Logs — generated at runtime
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files from atomic writes
+*.tmp
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
